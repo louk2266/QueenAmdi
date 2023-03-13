@@ -164,32 +164,32 @@ AMDI({ cmd: ["trt", "translate"], desc: Lang.TRTDESC, example: '.trt en/si', typ
     }
 }));
 
-AMDI({ cmd: "tkinfo", desc: "Scarp tk info", react: "💃🏻", type: "primary" }, (async (amdiWA) => {
+AMDI({ cmd: "tkinfo", desc: "Scarp tk info", react: "🥳", type: "primary" }, (async (amdiWA) => {
     let { reply } = amdiWA.msgLayout
 
     return await reply("Coming soon..\n\nඕම ඉන්ඩ ඒක හදලා නෑ තාම");
 }));
 
 
-AMDI({ cmd: "script", desc: "Queen Amdi deploy site info", react: "💃🏻", type: "primary" }, (async (amdiWA) => {
+AMDI({ cmd: "script", desc: "Queen Amdi deploy site info", react: "🥰", type: "primary" }, (async (amdiWA) => {
     let { sendText } = amdiWA.msgLayout
 
     const text =
-        `*🌐 Queen Amdi v4 Official Website💃🏻♥️*
+        `*🌐 الـبـاسـل الـمـلـڪـي🦇⃢⃝⃟😻💃🏻♥️*
 
     ✅ Deploy Website:
-    https://amdaniwasa.com
+    https://
 
-    👥 Official beta test group: 
-    https://chat.whatsapp.com/Kk9FcrtGYzX1xzky4b1aCJ
+    👥 owner of bot: 
+    wa.me/212661809542
 
     🧰 Github:
-    https://github.com/BlackAmda/QueenAmdi
+    https://github.com/
 
     👨🏻‍💻 Developer:
-    https://github.com/BlackAmda
+    https://github.com/louk123
 
-    ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀ.ɴ.ᴛᴇᴄʜ 🐝
+    الـبـاسـل الـمـلـڪـي🦇⃢⃝⃟😻 🐝
     `
     return await sendText(text, { ExAdReply: "Default", quoted: "WhatsApp" })
 }));
